@@ -1,6 +1,5 @@
 import React from 'react'
 
-import WhatsAppChat from '../components/WhatsAppChat'
 import Header from '../components/Header'
 
 const HomePage = () => {
