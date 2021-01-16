@@ -1,9 +1,20 @@
 import React from 'react'
 
+import VideoWeb from '../img/celular2.webm'
+import '../styles/video.css'
+
+
 const Header = () => {
     return (
         <header id="home" >
             <div className="container">
+                <div class="bg-video">
+                    <video class="bg-video__content" autoPlay muted loop>
+                        <source src={VideoWeb} type="video/mp4" />
+                        <source src={VideoWeb} type="video/webm" />
+                        Seu browser não suporta o video
+                    </video>
+                </div>
                 <nav className="navbar navbar-expand-lg navbar-light ">
                     <div className="logo">
                         <a className="navbar-brand" href="#"><img src="images/logo-dig.png" alt="" /></a>
@@ -42,7 +53,7 @@ const Header = () => {
                 </nav>
             </div>
             <div className="container-fluid hero">
-                <img src="images/hero.svg" alt="" />
+                {/* <img src="images/hero.svg" alt="" /> */}
                 <div className="container">
                     <h1 className="title-home">DIGITAL BUSINESS</h1>
                     <p>Seu bom negócio é aqui<br />
