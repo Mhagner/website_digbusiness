@@ -15,10 +15,6 @@ $('.more-btn').click(function() {
   }
 });
 
-
-
-
-
 function slickify(){
   $('.blog-slider').slick({
       autoplay: true,

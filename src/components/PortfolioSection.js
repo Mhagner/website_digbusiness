@@ -4,13 +4,10 @@ const PortfolioSection = () => {
     return (
         <section id="portfolio" className="portfolio">
             <div className="container-fluid">
-                <div className="portfolio-aside">
-                    <img src="images/aside3.svg" alt="" />
-                </div>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h2>See some of our<br />Creative work.</h2>
+                            <h2>Veja algumas das soluções <br />que já criamos</h2>
                         </div>
                     </div>
                     <div className="row">
@@ -110,12 +107,6 @@ const PortfolioSection = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-12 more-btn">
-                            {/* Show Me More/Less Button */}
-                            <a className="more-btn-inside">Show More.</a>
                         </div>
                     </div>
                 </div>

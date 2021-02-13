@@ -1,0 +1,26 @@
+.about {
+  padding: 150px 0;
+}
+
+.container {
+  &--title-home {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  &--subtitle {
+    color: #2d0068;
+  }
+}
+
+.service-box > h3 {
+  font-size: 20px;
+}
+
+@media (min-width: 1026px) {
+  .container {
+    &--title-home {
+      font-size: 3.5rem;
+    }
+  }
+}
