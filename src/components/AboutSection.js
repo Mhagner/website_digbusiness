@@ -10,10 +10,10 @@ const AboutSection = () => {
                     </div>
                     <div className="col-12 col-sm-12 col-lg-6">
                         <h2>Quem Somos?</h2>
-                        {/* Replace About Us Text Under */}
-                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan
-                        tincidunt.Vestibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla porttitor accumsan
-                        tincidunt.</p>
+                        <p>Somos uma empresa que nasceu para ajudar micro e pequenos empreendedores a alcançarem os seus objetivos
+                            de crescimento e de vendas através do marketing digital e de soluções tecnologicas modernas que são utilizadas
+                            por grandes empresas no Brasil e no mundo.
+                        </p>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const Template = ({ children }) => {
         <>
             <Header />
             <WhatsAppWidget 
-                phoneNumber="5562991079788" 
+                phoneNumber="5562984730843" 
                 companyName="Digital Business"
                 textReplyTime="Atendimento Comercial"
                 message='Olá, Em que posso te ajudar?'

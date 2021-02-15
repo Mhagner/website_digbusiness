@@ -22,18 +22,24 @@ const ServiceSection = () => {
                                 {/* Replace Patch to Image Under */}
                                 <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan
                       tincidunt.</p>
+                                <div className="hero-btns service-btn">
+                                    <a data-scroll href="#services">Ver mais</a>
+                                </div>
                             </div>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-4">
                             <div className="service-box">
                                 <img src="images/service-icon2.svg" alt="" />
                                 {/* Service Title */}
-                                <h3>Desenvolvimento <br /> de Sites, Ecommerces &amp; Aplicativos</h3>
+                                <h3>Desenvolvimento <br /> de Sites &amp; Aplicativos</h3>
                                 {/* Service Info */}
                                 <p>
                                     Desenvolvemos as melhores soluções para que o seu negócio seja
                                     conhecido e escale com a ajuda da tecnologia.
                                 </p>
+                                <div className="hero-btns service-btn">
+                                    <a data-scroll href="#services">Ver mais</a>
+                                </div>
                             </div>
                         </div>
                     </div>

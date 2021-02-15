@@ -5,7 +5,7 @@ import NavBar from './NavBar'
 import VideoBackground from './VideoBackground'
 import VideoWeb from '../img/celular2.webm'
 
-const Header = () => {
+const Header = ({ children }) => {
     return (
         <header id="home" >
             <div className="container">
@@ -21,7 +21,7 @@ const Header = () => {
                 subTitle2="e fazer com que sua empresa seja referência no mundo digital"
                 linkName="Saiba mais"
                 buttonName="Nossos Projetos"
-                linkImage="images/hero.svg"
+            
             />
         </header >
     )
