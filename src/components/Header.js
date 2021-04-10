@@ -14,15 +14,7 @@ const Header = ({ children }) => {
                 />
                 <NavBar />
             </div>
-            <ContainerImage
-                titleHome1="Modernize o seu negócio"
-                titleHome2="com a Digital Business"
-                subTitle1="Oferecemos nossa expertise digital para modernizar o seu negócio"
-                subTitle2="e fazer com que sua empresa seja referência no mundo digital"
-                linkName="Saiba mais"
-                buttonName="Nossos Projetos"
-            
-            />
+            {children}
         </header >
     )
 }

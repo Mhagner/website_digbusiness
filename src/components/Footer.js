@@ -1,4 +1,7 @@
 import React from 'react'
+import InstaIcon from '../img/publico/insta.png'
+import FaceIcon from '../img/publico/face.png'
+
 
 const Footer = () => {
     return (
@@ -17,9 +20,22 @@ const Footer = () => {
                         </ul>
                         <h6>© 2019 - Doob,All Right Reserved</h6>
                         <ul className="social">
-                            <li><a href="#"><i className="icofont-facebook" /></a></li>
-                            <li><a href="#"><i className="icofont-twitter" /></a></li>
-                            <li><a href="#"><i className="icofont-dribbble" /></a></li>
+                            <li>
+                                <a target="_blank" href="https://www.instagram.com/armando_mktoficial/">
+                                    <img
+                                        src={InstaIcon}
+                                        className="social-icon"
+                                        alt="Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/mkt.digitalbusiness">
+                                    <img
+                                        src={FaceIcon}
+                                        className="social-icon"
+                                        alt="Facebook" />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
